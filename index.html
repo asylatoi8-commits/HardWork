@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HardWork KG</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+HardWork KG
+</div>
+
+
+<p>
+Найди свой путь после школы
+</p>
+
+
+<button onclick="startTest()">
+Начать тест
+</button>
+
+
+</header>
+
+
+
+<section id="test" class="hidden">
+
+
+<h2>
+Какое направление тебе подходит?
+</h2>
+
+
+
+<div class="question">
+
+
+<h3>
+1. Что тебе больше нравится?
+</h3>
+
+
+<button onclick="answer('tech')">
+💻 Технологии
+</button>
+
+
+<button onclick="answer('law')">
+⚖️ Право
+</button>
+
+
+<button onclick="answer('business')">
+💼 Бизнес
+</button>
+
+
+<button onclick="answer('medicine')">
+🩺 Медицина
+</button>
+
+
+</div>
+
+
+
+<div class="question">
+
+
+<h3>
+2. Какая работа тебе ближе?
+</h3>
+
+
+<button onclick="answer('leader')">
+Руководить людьми
+</button>
+
+
+<button onclick="answer('analysis')">
+Анализировать
+</button>
+
+
+<button onclick="answer('help')">
+Помогать людям
+</button>
+
+
+</div>
+
+
+
+<button class="resultBtn" onclick="showResult()">
+
+Получить результат
+
+</button>
+
+
+
+</section>
+
+
+
+<section id="result" class="hidden">
+
+
+<div class="card">
+
+
+<h1 id="profession">
+
+</h1>
+
+
+<p id="description">
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+© 2026 HardWork KG
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
